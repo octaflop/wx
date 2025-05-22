@@ -28,3 +28,6 @@ def generate_qr_code(text, filepath="qrcode.svg"):
 # text_to_encode = "https://example.com"
 # result_filepath = generate_qr_code(text_to_encode)
 # print(f"QR code saved at: {result_filepath}")
+
+if __name__ == "__main__":
+    generate_qr_code("https://github.com/octaflop/wx")
